@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="hello">Hello World, MainActivity!</string>
+    <string name="hello">Please Sign In</string>
+	<string name="button1">!</string>
+	<string name="button2">Login</string>
+	<string name="button3">Sign Up</string>
+	<string name="button4">Forgot Password</string>
     <string name="app_name">MyApp001</string>
-
+	<string name="username">Enter your username</string>
+	<string name="welcome">Welcome to my test app!</string>
+	<string name="password">Password</string>
+	
 </resources>

@@ -2,12 +2,76 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
+	android:layout_alignParentBottom="true"
+	android:layout_alignParentLeft="true"
+	android:layout_alignParentRight="true" 
     android:gravity="center"
     android:orientation="vertical" >
-
-    <TextView
-        android:layout_width="wrap_content"
+	
+	<Button
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="@string/button1" 
+		android:onClick="exit" />
+		
+	<Button
+		android:padding="10dp"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="@string/button2"  />
+	
+	<Button
+		android:padding="10dp"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="@string/button3"  />
+	
+	<Button
+		android:padding="10dp"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="@string/button4"  />
+	
+	<ProgressBar
+		android:padding="10dp"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" />
+	
+	<EditText 
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content"
+		android:id="@+id/editText1" 
+		android:inputType="textEmailAddress" 
+		android:text="@string/username">
+		<requestFocus></requestFocus>
+		
+	</EditText>
+	
+	<EditText 
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content" 
+		android:id="@+id/editText2" 
+		android:inputType="textPassword" 
+		android:text="@string/password" >
+			
+		</EditText>
+		
+	<Button 
+        android:id="@+id/Button02" 
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content" 
+		android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true" 
+		android:text="Left" >
+    </Button>
+	
+    <Button 
+        android:id="@+id/Button03" 
+        android:layout_width="wrap_content" 
         android:layout_height="wrap_content"
-        android:text="@string/hello" />
+		android:layout_alignParentBottom="true"
+		android:layout_alignParentRight="true"
+        android:text="Right" >
+    </Button>
 
 </LinearLayout>
